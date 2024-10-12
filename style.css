@@ -1,4 +1,4 @@
-   body {
+       body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -66,4 +66,18 @@ video {
     border-radius: 8px;
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 12px;
 }
