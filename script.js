@@ -1,7 +1,7 @@
 
         const pubnub = new PubNub({
-            publishKey: 'pub-c-436754db-63c3-44ef-9f67-6c798d8fe632',  // Replace with your actual Publish Key
-            subscribeKey: 'sub-c-f44b73e4-b274-4dcc-be2b-a0eb1c652a3c' // Replace with your actual Subscribe Key
+            publishKey: 'Pubnub Publish key here',  // Replace with your actual Publish Key
+            subscribeKey: 'Pubnub Subscribe key here', // Replace with your actual Subscribe Key
         });
 
         const chat = document.getElementById('chat');
